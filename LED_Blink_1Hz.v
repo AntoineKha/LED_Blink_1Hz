@@ -50,5 +50,5 @@ module LED_Blink_1Hz(
         end
         else counter <= counter + 1'b1; //Increment the count in other cases.
     end
-    assign LED = led_mode; // Continuous assignment of count.
+    assign LED = led_mode; // Continuous assignment of LED.
 endmodule
